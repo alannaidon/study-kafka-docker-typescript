@@ -13,20 +13,23 @@ Um exemplo simples de como inciar uma aplicação com Kafka e docker-compose.
 
 ## Stack Utilizadas
 
-- NodeJs com Typescript
-- Kafka com a lib kafkaJs
-- express para nossa rota.
+- NodeJs com [Typescript](https://www.npmjs.com/package/typescript)
+- Kafka com a lib [KafkaJs](https://www.npmjs.com/package/kafkajs)
+- Para nossa rota: [Express](https://www.npmjs.com/package/express)
 
 ## Instalação
 
 Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org) (se aplicável) instalados no seu computador.
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/seu-usuario/nome-do-repositorio.git
+# Clone (SSH)
+$ git clone git@github.com:alannaidon/study-kafka-docker-typescript.git
+
+# Clone (HTTPS)
+$ git clone https://github.com/alannaidon/study-kafka-docker-typescript.git
 
 # Entre no repositório
-$ cd nome-do-repositorio
+$ cd study-kafka-docker-typescript
 
 # Instale as dependências
 $ npm install
